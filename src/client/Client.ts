@@ -9,10 +9,7 @@ import { handleCommandFile, handleButtons, handleSelectMenus, handleModals } fro
 import { Select_Menu } from "../interfaces/Select Menu";
 import { Modal } from "../interfaces/Modal";
 
-/**
-* Codebase made by {@link https://tsoxas.tk tsoxas}
-* A simple to use discord.js v14 codebase with complete support for slash commands
-*/
+
 class Bot extends Client {
   public commands: Collection<string, Command> = new Collection();
   public buttons: Collection<string, Button> = new Collection();
